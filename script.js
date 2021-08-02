@@ -20,10 +20,10 @@ async function getData() {
             </div>
         </div>
         <div class="address">
-            <div>Latitude</div>
-            <div>${data.latitude}</div>
-            <div>Longtitude</div>
-            <div>${data.longitude}</div>
+            <div>Lat & Long</div>
+            <a href="map:${data.latitude} , ${data.longitude}">
+            ${data.latitude} , ${data.longitude}
+            </a>
             <div>City</div>
             <div>${data.city}</div>
             <div>Region</div>
