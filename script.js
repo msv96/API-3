@@ -21,7 +21,7 @@ async function getData() {
         </div>
         <div class="address">
             <div>Lat & Long</div>
-            <a href="geo:${data.latitude} , ${data.longitude}">
+            <a href="geo:${data.latitude} , ${data.longitude}" target="_blank">
             ${data.latitude} , ${data.longitude}
             </a>
             <div>City</div>
